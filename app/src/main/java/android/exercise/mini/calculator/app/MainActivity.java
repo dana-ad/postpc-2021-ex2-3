@@ -27,12 +27,14 @@ public class MainActivity extends AppCompatActivity {
     - initial update main text-view based on calculator's output
     - set click listeners on all buttons to operate on the calculator and refresh main text-view
      */
+
   }
 
   @Override
   protected void onSaveInstanceState(@NonNull Bundle outState) {
     super.onSaveInstanceState(outState);
     // todo: save calculator state into the bundle
+    //outState.putSerializable();
   }
 
   @Override
